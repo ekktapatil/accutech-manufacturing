@@ -21,10 +21,11 @@ export default function Navbar() {
 
   const navItems = [
   { name: "Home", href: "#home" },
+  { name: "Projects", href: "#projects" },
   { name: "About", href: "#about" },
   { name: "Services", href: "#services" },
-  { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
+ 
 ];
 
   return (

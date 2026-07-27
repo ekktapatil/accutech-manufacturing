@@ -113,39 +113,7 @@ export default function WhyChoose() {
               ))}
             </div>
 
-            {/* Statistics */}
-
-            <div className="mt-14 grid grid-cols-3 gap-6">
-
-              <div className="rounded-2xl bg-orange-50 p-5 text-center">
-                <h3 className="text-4xl font-black text-orange-600">
-                  100+
-                </h3>
-                <p className="mt-2 text-slate-600 text-sm">
-                  Projects
-                </p>
-              </div>
-
-              <div className="rounded-2xl bg-orange-50 p-5 text-center">
-                <h3 className="text-4xl font-black text-orange-600">
-                  10+
-                </h3>
-                <p className="mt-2 text-slate-600 text-sm">
-                  Services
-                </p>
-              </div>
-
-              <div className="rounded-2xl bg-orange-50 p-5 text-center">
-                <h3 className="text-4xl font-black text-orange-600">
-                  PAN
-                </h3>
-                <p className="mt-2 text-slate-600 text-sm">
-                  India
-                </p>
-              </div>
-
-            </div>
-
+            
             {/* CTA */}
 
             <div className="mt-12">
