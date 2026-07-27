@@ -9,13 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
     "aos": "^2.3.4",
+    "bcryptjs": "^3.0.3",
     "cloudinary": "^2.10.0",
     "framer-motion": "^12.42.2",
-    "mongodb": "^7.5.0",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.8.0",
     "next": "16.2.11",
     "next-cloudinary": "^6.17.5",
+    "prisma": "^6.19.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-hook-form": "^7.83.0",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
