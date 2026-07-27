@@ -31,7 +31,7 @@ export default function Footer() {
               <li><Link href="/services">Services</Link></li>
               <li><Link href="/projects">Projects</Link></li>
               <li><Link href="/gallery">Gallery</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/ContactForm">Contact</Link></li>
             </ul>
           </div>
 
@@ -60,17 +60,17 @@ export default function Footer() {
 
               <div className="flex gap-3">
                 <FaPhoneAlt className="mt-1 text-orange-500"/>
-                <span>Your Phone Number</span>
+                <span>7385851083</span>
               </div>
 
               <div className="flex gap-3">
                 <FaEnvelope className="mt-1 text-orange-500"/>
-                <span>Your Email</span>
+                <span>accutechmanufacturing@gmail.com</span>
               </div>
 
               <div className="flex gap-3">
                 <FaMapMarkerAlt className="mt-1 text-orange-500"/>
-                <span>Pune, Maharashtra</span>
+                <span>P.M.R.D Bham Ambethan Road ,Diamond Chowk, Chakan, Maharashtra 410501 </span>
               </div>
 
             </div>

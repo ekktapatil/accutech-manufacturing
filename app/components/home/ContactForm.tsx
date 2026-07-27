@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 export default function ContactForm() {
+    
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -61,7 +62,10 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16">
+  <section
+    id="contact"
+    className="max-w-4xl mx-auto px-6 py-16 scroll-mt-24"
+  >
       <h2 className="text-3xl font-bold mb-6 text-center">
         Contact Us
       </h2>
