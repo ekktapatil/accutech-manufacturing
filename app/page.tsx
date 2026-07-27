@@ -3,7 +3,6 @@ import Projects from "./components/home/Projects";
 import About from "./components/home/About";
 import Services from "./components/home/Services";
 import WhyChooseUs from "./components/home/WhyChooseUs";
-import Statistics from "./components/home/Statistics";
 import Industries from "./components/home/Industries";
 import Process from "./components/home/Process";
 import Clients from "./components/home/Clients";
@@ -19,7 +18,6 @@ export default function Home() {
       <About />
       <Services />
       <WhyChooseUs />
-      <Statistics />
       <Industries />
       <Process />
       <Clients />
