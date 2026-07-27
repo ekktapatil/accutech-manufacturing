@@ -12,8 +12,8 @@ const stats = [
     title: "Support",
   },
   {
-    number: "PAN",
-    title: "India Service",
+    number: "25+",
+    title: "Skilled Professionals",
   },
 ];
 

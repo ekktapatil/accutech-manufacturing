@@ -1,13 +1,14 @@
 import Hero from "./components/home/Hero";
 import Projects from "./components/home/Projects";
-import Statistics from "./components/home/Statistics";
+import About from "./components/home/About";
 import Services from "./components/home/Services";
 import WhyChooseUs from "./components/home/WhyChooseUs";
-import About from "./components/home/About";
+import Statistics from "./components/home/Statistics";
 import Industries from "./components/home/Industries";
 import Process from "./components/home/Process";
 import Clients from "./components/home/Clients";
 import ContactForm from "./components/home/ContactForm";
+
 
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
     <>
        <Hero />
       <Projects />
-      <Statistics />
+      <About />
       <Services />
       <WhyChooseUs />
-      <About />
+      <Statistics />
       <Industries />
       <Process />
       <Clients />
