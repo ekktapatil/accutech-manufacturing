@@ -3,7 +3,13 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarke
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-slate-900 text-white"
+     style={{
+    backgroundImage: "url('/images/backgrounds/footer-blueprint.jpg')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}>
       <div className="mx-auto max-w-7xl px-6 py-16">
 
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">

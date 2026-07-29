@@ -88,7 +88,7 @@ export default function OfficeInteriorPage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/office-interior.jpg"
+                  src="/images/h1.jpg"
                   alt="Office Interior"
                   width={900}
                   height={650}
@@ -402,9 +402,9 @@ export default function OfficeInteriorPage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/office-interior.jpg",
-              "/images/office-interior.jpg",
-              "/images/office-interior.jpg",
+              "/images/h2.jpg",
+              "/images/h3.jpg",
+              "/images/h4.jpg",
             ].map((image, index) => (
 
               <div

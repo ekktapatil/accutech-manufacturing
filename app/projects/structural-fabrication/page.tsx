@@ -87,7 +87,7 @@ export default function StructuralFabricationPage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/structural-fabrication.jpg"
+                  src="/images/j1.jpg"
                   alt="Structural Fabrication"
                   width={900}
                   height={650}
@@ -394,9 +394,9 @@ export default function StructuralFabricationPage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/structural-fabrication.jpg",
-              "/images/structural-fabrication.jpg",
-              "/images/structural-fabrication.jpg",
+              "/images/j2.jpg",
+              "/images/j3.jpg",
+              "/images/j4.jpg",
             ].map((image, index) => (
 
               <div

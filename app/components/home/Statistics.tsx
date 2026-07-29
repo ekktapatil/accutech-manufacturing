@@ -3,7 +3,13 @@ import Container from "../ui/Container";
 
 export default function Statistics() {
   return (
-    <section className="bg-orange-600 py-20">
+    <section className="bg-orange-600 py-20"
+     style={{
+    backgroundImage: "url('/images/backgrounds/section-blueprint.jpg')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}>
       <Container>
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
           {stats.map((stat) => (

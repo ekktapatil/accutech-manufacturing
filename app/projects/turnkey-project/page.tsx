@@ -84,7 +84,7 @@ export default function TurnkeyProjectPage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/assembly-workstation.jpg"
+                  src="/images/l1.jpg"
                   alt="Turnkey Project"
                   width={900}
                   height={650}
@@ -396,9 +396,9 @@ export default function TurnkeyProjectPage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/assembly-workstation.jpg",
-              "/images/assembly-workstation.jpg",
-              "/images/assembly-workstation.jpg",
+              "/images/l2.jpg",
+              "/images/l3.jpg",
+              "/images/l4.jpg",
             ].map((image, index) => (
 
               <div

@@ -80,7 +80,7 @@ export default function IndustrialFabricationPage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/f4.jpg"
                   alt="Industrial Fabrication"
                   width={900}
                   height={650}
@@ -377,9 +377,9 @@ export default function IndustrialFabricationPage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/hero.jpg",
-              "/images/hero.jpg",
-              "/images/hero.jpg",
+              "/images/f1.jpg",
+              "/images/f2.jpg",
+              "/images/f3.jpg",
             ].map((image, index) => (
               <div
                 key={index}

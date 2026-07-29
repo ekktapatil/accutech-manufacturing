@@ -34,6 +34,12 @@ export default function WhyChoose() {
     <section
       id="why"
       className="py-24 bg-white"
+       style={{
+    backgroundImage: "url('/images/backgrounds/section-blueprint.jpg')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -46,7 +52,7 @@ export default function WhyChoose() {
             <div className="relative h-[700px] rounded-[32px] overflow-hidden shadow-2xl">
 
               <Image
-                src="/images/assembly-line.jpg"
+                src="/images/D1.jpg"
                 alt="Engineering"
                 fill
                 className="object-cover"

@@ -84,7 +84,7 @@ export default function AssemblyLinePage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/assembly-line.jpg"
+                  src="/images/k1.jpg"
                   alt="Assembly Line"
                   width={900}
                   height={650}
@@ -396,9 +396,9 @@ export default function AssemblyLinePage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/assembly-line.jpg",
-              "/images/assembly-line.jpg",
-              "/images/assembly-line.jpg",
+              "/images/k2.jpg",
+              "/images/k3.jpg",
+              "/images/k4.jpg",
             ].map((image, index) => (
 
               <div

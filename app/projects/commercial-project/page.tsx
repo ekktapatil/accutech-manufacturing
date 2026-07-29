@@ -88,7 +88,7 @@ export default function CommercialProjectPage() {
               <div className="overflow-hidden rounded-[35px] shadow-2xl">
 
                 <Image
-                  src="/images/main.jpg"
+                  src="/images/m1.jpg"
                   alt="Commercial Project"
                   width={900}
                   height={650}
@@ -401,9 +401,9 @@ export default function CommercialProjectPage() {
           <div className="mt-16 grid gap-8 lg:grid-cols-3">
 
             {[
-              "/images/main.jpg",
-              "/images/main.jpg",
-              "/images/main.jpg",
+              "/images/m2.jpg",
+              "/images/m3.jpg",
+              "/images/m4.jpg",
             ].map((image, index) => (
 
               <div

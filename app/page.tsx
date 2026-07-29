@@ -13,6 +13,7 @@ import ContactForm from "./components/home/ContactForm";
 export default function Home() {
   return (
     <>
+     <main className="premium-bg">
        <Hero />
       <Projects />
       <About />
@@ -22,6 +23,7 @@ export default function Home() {
       <Process />
       <Clients />
       <ContactForm />
-      </>
+      </main>
+    </>
   );
 }
