@@ -36,8 +36,8 @@ const processGallery = [
     description:
       "Realistic 3D visualization that helps clients understand the final look before project execution.",
     images: [
-      "/images/process/E8.jpg",
-      "/images/process/E9.jpg",
+      "/images/process/e8.jpg",
+      "/images/process/e9.jpg",
     ],
   },
 ];

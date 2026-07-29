@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
+
 export const metadata = {
   title: "Accutech Manufacturing",
   description: "Industrial Fabrication & Turnkey Engineering Solutions",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+      
       </body>
     </html>
   );
