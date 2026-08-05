@@ -6,13 +6,13 @@ import EngineeringBackground from "../ui/EngineeringBackground";
 
 export default function Hero() {
   return (
-   <section id="home" className="relative min-h-screen pt-24"  style={{
-    backgroundImage: "url('/images/backgrounds/hero-blueprint.jpg')",
+   <section id="home" className="relative overflow-hidden py-28"  style={{
+    backgroundImage: "url('/images/backgrounds/section-blueprint.jpg')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}>
-    <EngineeringBackground />
+    {/* <EngineeringBackground /> */}
   
   {/* Engineering Background */}
   <div className="absolute inset-0 -z-10">
@@ -22,7 +22,7 @@ export default function Hero() {
       className="absolute inset-0 opacity-[0.05]"
       style={{
         backgroundImage: `
-          linear-gradient(rgba(15,23,42,.18) 1px, transparent 1px),
+          linear-gradient(rgba(244, 246, 250, 0.18) 1px, transparent 1px),
           linear-gradient(90deg, rgba(15,23,42,.18) 1px, transparent 1px)
         `,
         backgroundSize: "60px 60px",
@@ -175,7 +175,6 @@ export default function Hero() {
   </div>
 
   {/* Office Interior */}
-
   <div className="absolute left-0 bottom-16 h-[240px] w-[42%] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-2xl">
 
     <Image
@@ -260,8 +259,17 @@ export default function Hero() {
 
     </div>
            {/* Bottom Information Strip */}
+           
 
-      <div className="mt-24 border-t border-slate-200 bg-white/80 backdrop-blur-sm">
+     <div
+  className="relative mt-24 overflow-hidden border-t border-slate-200"
+  style={{
+    backgroundImage: "url('/images/backgrounds/section-blueprint.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-12">
 
